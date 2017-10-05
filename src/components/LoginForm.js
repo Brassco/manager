@@ -5,6 +5,10 @@ import {Card, CardItem, InputWithLabel, Button, ErrorText, Spiner} from './commo
 
 class LoginForm extends Component {
 
+    static navigationOptions = {
+        title: 'Login',
+    };
+
     emailChange(email) {
         this.props.onEmailChange(email);
     }
